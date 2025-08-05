@@ -30,28 +30,6 @@ The application features a user-friendly web form built with Flask and styled wi
   - Gender distribution across spending categories.
 - **Cloud-Ready Deployment**: Fully configured for deployment on **Amazon Web Services (AWS)** using Elastic Beanstalk, with instructions for both the EB CLI and the AWS Management Console.
 
-## Project Structure
-
-```
-final-project/
-|-- app/
-|   |-- static/
-|   |   |-- js/
-|   |   |   |-- main.js      # JavaScript for dynamic form elements
-|   |-- templates/
-|   |   |-- index.html     # The main survey form page
-|   |   |-- success.html   # The "Thank You" page after submission
-|   |-- main.py            # Core Flask application logic and routes
-|-- data_processing/
-|   |-- data_processor.py  # Script to fetch from MongoDB and create CSV
-|-- analysis/
-|   |-- data_analysis.ipynb# Jupyter Notebook for data visualization
-|   |-- charts/            # Exported charts are saved here
-|-- application.py         # Entry point for AWS Elastic Beanstalk
-|-- requirements.txt       # List of all Python dependencies
-|-- README.md              # This file
-```
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
@@ -169,3 +147,4 @@ After you're done, you can deactivate the virtual environment:
 ```bash
 deactivate
 ```
+
